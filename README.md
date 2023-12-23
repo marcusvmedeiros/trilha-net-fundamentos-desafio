@@ -1,8 +1,7 @@
-# DIO - Trilha .NET - Fundamentos
-www.dio.me
+# DESAFIO CONCLUÍDO - DIO - Trilha .NET - Fundamentos
 
 ## Desafio de projeto
-Para este desafio, você precisará usar seus conhecimentos adquiridos no módulo de fundamentos, da trilha .NET da DIO.
+Para este desafio, usei meus conhecimentos adquiridos no módulo de fundamentos, da trilha .NET da DIO.
 
 ## Contexto
 Você foi contratado para construir um sistema para um estacionamento, que será usado para gerenciar os veículos estacionados e realizar suas operações, como por exemplo adicionar um veículo, remover um veículo (e exibir o valor cobrado durante o período) e listar os veículos.
@@ -35,4 +34,21 @@ Por último, deverá ser feito um menu interativo com as seguintes ações imple
 
 
 ## Solução
-O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+Completei os métodos:
+
+AdicionarVeiculo():
+    - Adicionai a leitura de entrada à variável "placaParaAdicionar"
+    - Utilizei o método ".Add" na lista "veiculos" para adicionar um item
+
+RemoverVeiculo()
+    - Adicionar a leitura de entrada à variável "placa"
+    - implementei o "Convert.ToInt32(Console.ReadLine())" à variável "horas"
+    - implementei o "veiculos.Remove(placa)" para remover um item da lista
+
+ListarVeiculo()
+    - Implementei o foreach para a exibição da lista de itens da lista da seguinte forma:
+    
+    foreach(string item in veiculos)
+                {
+                    Console.WriteLine(item);
+                }
