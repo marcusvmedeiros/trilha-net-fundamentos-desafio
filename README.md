@@ -37,18 +37,18 @@ Por último, deverá ser feito um menu interativo com as seguintes ações imple
 Completei os métodos:
 
 AdicionarVeiculo():
-    - Adicionai a leitura de entrada à variável "placaParaAdicionar"
-    - Utilizei o método ".Add" na lista "veiculos" para adicionar um item
+- Adicionai a leitura de entrada à variável "placaParaAdicionar"
+- Utilizei o método ".Add" na lista "veiculos" para adicionar um item
 
 RemoverVeiculo()
-    - Adicionar a leitura de entrada à variável "placa"
-    - implementei o "Convert.ToInt32(Console.ReadLine())" à variável "horas"
-    - implementei o "veiculos.Remove(placa)" para remover um item da lista
+- Adicionar a leitura de entrada à variável "placa"
+- implementei o "Convert.ToInt32(Console.ReadLine())" à variável "horas"
+- implementei o "veiculos.Remove(placa)" para remover um item da lista
 
 ListarVeiculo()
-    - Implementei o foreach para a exibição da lista de itens da lista da seguinte forma:
+- Implementei o foreach para a exibição da lista de itens da lista da seguinte forma:
     
-    foreach(string item in veiculos)
-                {
-                    Console.WriteLine(item);
-                }
+foreach(string item in veiculos)
+        {
+            Console.WriteLine(item);
+        }
